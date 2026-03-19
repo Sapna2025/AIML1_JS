@@ -36,8 +36,8 @@ document.write("a*b*c=");
 result =  a*b*c;
 document.write(result);
 document.write(linebreak);
-
-var a=10;
+*/
+/*var a=10;
 var b=20;
 document.write("(a==b)=");
 result=(a==b);
@@ -56,6 +56,8 @@ result=(a===b);
 document.write(result);
 document.write(linebreak);
 
+*/
+/*
 var count;
 document.write("Starting loop"+<br/>);
 for(count=0;count<10;count++){
@@ -72,8 +74,7 @@ const person={
 for(let x in person){
     console.log("person details:"+x+":"+person[x]);//can write it  as person.x
 }
-*/
-/*
+
 var count=0;
 document.write("Starting loop ")
 while(count<10){
@@ -85,15 +86,14 @@ document.write("loop stopped!");
 var age=20;
 if(age>18){
     document.write(" <b>You are eligible to cast the vote.</b>");
-}*/
-/*
+}
+
 let age=20;
 if(age>=18){
    document.write("You are an adult ");
 }else{
    document.write("You are a minor");
-}*/
-/*
+}
 var grade='A';
 document.write("Entering switch block <br>");
 switch(grade){
@@ -109,21 +109,21 @@ switch(grade){
     break;
     default:document.write("unknown grade<br>");
 }
-document.write("exiting switch case");*/
-/*
+document.write("exiting switch case");
+
 function myFunction(){
     alert("Hello World");
 }
 function sayHello(name,age){
     document.write(name+" is "+age+" years old. ");
 }
-    *//*
+    
 var res=mu(12,30);
 function mu(x,y){
     return x*y;
 }
-document.write(res);*/
-/*
+document.write(res);
+
 //normal function
 function add(a,b){
     console.log(a+b);
@@ -136,7 +136,7 @@ add2(102,20);
 //arrow function for single line paerameter
 var add3=(a,b)=>console.log(a+b);
 add3(30,20);
-*/
+
 var person={
     name:"John Mac";
     age:30;
@@ -155,3 +155,31 @@ person2.address={};
 person2.address.street="Vijay Nagar";
 person2['adress']['flatNo']=33;
 console.log(person2);
+*/
+var myInfo=new Array();
+var myInfo1=Array();
+console.log(myInfo,myInfo1);
+
+let collection=[
+    {},
+    [],
+    true,
+    "John",
+    function(){},
+    9009000898,
+    undefined,
+    null,
+    new String("abc"),
+    new Date(),
+];
+console.log(collection);
+collection.teacherName="John Mac";
+collection.phoneMo.=9500078678;
+
+
+var trainerInfo=["Shruti",29,"ghaziabad",{isMarried:true}];
+console.log(trainerInfo);
+console.log(trainerInfo[0]);                
+trainerInfo.contact=9898965467;
+console.log(trainerInfo);
+
